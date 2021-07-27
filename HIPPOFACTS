@@ -1,0 +1,8 @@
+[bindle]
+name = "ivantowlson/human-simulator-2"
+version = "0.1.0"
+authors = ["Ivan Towlson"]
+
+[[handler]]
+route = "/"
+name = "target/wasm32-wasi/release/human-simulator-2.wasm"
